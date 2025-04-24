@@ -8,6 +8,7 @@ import { Gengar } from "./gengar";
 import { Glalie } from "./glalie";
 import { Kakuna } from "./kakuna";
 import { Leafish } from "./leafish";
+import { Gengarish } from "./gengarish";
 import { Nosepass } from "./nosepass";
 import { Onyx } from "./onyx";
 import { Pikachu } from "./pikachu";
@@ -50,6 +51,9 @@ export const getTemplate = (template: Template) => {
     }
     case "rhyhorn": {
       return Rhyhorn;
+    }
+    case "gengarish": {
+      return Gengarish;
     }
     default: {
       return Onyx;
