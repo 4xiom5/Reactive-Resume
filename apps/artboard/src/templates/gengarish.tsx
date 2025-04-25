@@ -269,13 +269,12 @@ const Experience = () => {
       {(item) => (
         <div className="flex items-start justify-between group-[.sidebar]:flex-col group-[.sidebar]:items-start">
           <div className="text-left">
+            <div className="font-bold">{item.position}</div>
             <LinkedEntity
               name={item.company}
               url={item.url}
               separateLinks={section.separateLinks}
-              className="font-bold"
             />
-            <div>{item.position}</div>
           </div>
 
           <div className="shrink-0 text-right group-[.sidebar]:text-left">
